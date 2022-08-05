@@ -1,1 +1,3 @@
-export class CreateUserDto {}
+import { User } from './User';
+
+export class CreateUserDto extends User {}
